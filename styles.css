@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.dado-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+}
+
+.dado {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.punto {
+    width: 20px;
+    height: 20px;
+    background-color: #FFDB58;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.center {
+    top: 40px;
+    left: 40px;
+}
+
+.top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.top-right {
+    top: 10px;
+    right: 10px;
+}
+
+.middle-left {
+    top: 40px;
+    left: 10px;
+}
+
+.middle-right {
+    top: 40px;
+    right: 10px;
+}
+
+.bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
+
+.bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
